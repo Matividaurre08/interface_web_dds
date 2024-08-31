@@ -30,4 +30,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.getElementById('csv-button').addEventListener('click', function () {
     console.log('CSV button clicked');
+    //TODO: Validar archivo y enviar datos
 });

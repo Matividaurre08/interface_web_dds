@@ -1,0 +1,98 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaginaPrincipal</title>
+    <link rel="stylesheet" href="../css/common-styles.css">
+    <link rel="stylesheet" href="./vulnerable_people_register.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1>DonAR</h1>
+            <h2>Donaciones para Personas Vulnerables</h2>
+        </div>
+        <div class="header-right">
+
+            <button class="login-btn"><i class="fa fa-user" aria-hidden="true"></i> Iniciar Sesión</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <h3>Carga de personas vulnerables</h3>
+            <div>
+                <form action="">
+                    <div class="grid-item">
+                        <label for="nombre" class="grid-label">Nombre (*)</label>
+                        <input type="text" name="nombre">
+                    </div>
+                    <div class="grid-item">
+                        <label for="apellido" class="grid-label">Apellido (*)</label>
+                        <input type="text" name="apellido">
+                    </div>
+                    <div class="grid-item">
+                        <label for="tipoDocumento" class="grid-label">Tipo de Documento (*)</label>
+                        <select name="tipoDocumento">
+                            <option value="null">Seleccione</option>
+                            <option value="DNI">Documento Nacional de Identidad</option>
+                            <option value="LC">Libreta civica</option>
+                            <option value="LE">Libreta de enrolamiento</option>
+                        </select>
+                    </div>
+                    <div class="grid-item">
+                        <label for="numeroDocumento" class="grid-label">Numero de Documento (*)</label>
+                        <input type="text" name="numeroDocumento">
+                    </div>
+                    <div class="grid-item">
+                        <label for="fechaNacimiento" class="grid-label">Fecha de Nac. (*)</label>
+                        <input type="date" name="fechaNacimiento">
+                    </div>
+                    <div class="grid-item">
+                        <label for="domicilio" class="grid-label">Domicilio</label>
+                        <input type="text" name="domicilio">
+                    </div>
+                    <div class="grid-item" id="grid-option">
+                        <label for="menores" class="grid-label">¿Tiene menores a cargo?</label>
+                        <div class="grid-radio">
+                            <input type="radio" name="menores" value="si" class="grid-radio-input" id="opcion-si">
+                            <label for="opcion-si" class="grid-radio-label">Si</label>
+                            <input type="radio" name="menores" value="no" class="grid-radio-input" id="opcion-no">
+                            <label for="opcion-no" class="grid-radio-label">No</label>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+            <div id="formulario-generado"></div>
+
+            <button id="button" type="submit">Enviar</button>
+
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>¿Tenés dudas? Contactate con nosotros.</p>
+            <div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <span>contacto@donar.org</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone"></i>
+                    <span>+54 11 1234 5678</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+<script src="./vulnerable_people_register.js"></script>
+
+</html>
