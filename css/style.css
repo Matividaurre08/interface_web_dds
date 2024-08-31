@@ -1,0 +1,62 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: #5F44F6;
+    height: 100px;
+    width: 100vw;
+}
+
+header div {
+    display: block;
+    height: 100%;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.company-name-container {
+    display: flex;
+    align-items: center;
+    float: left;
+    height: 100%;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.company-name,
+.company-subname {
+    text-align: left;
+    height: fit-content;
+    width: 100%;
+    font-weight: 600;
+}
+
+
+.company-name {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    float: right;
+    height: 100%;
+    align-items: center;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav ul li {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.icon {
+    fill: white;
+}
