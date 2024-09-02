@@ -1,0 +1,62 @@
+[
+  {
+    "direccion": {
+      "calle": "Calle Humberto Primo",
+      "coordenada": {
+        "latitud": -34.6064,
+        "longitud": -58.3843
+      },
+      "numero": 123
+    },
+    "id": 1,
+    "nombre": "Caritas Argentina"
+  },
+  {
+    "direccion": {
+      "calle": "Calle Humberto Primo",
+      "coordenada": {
+        "latitud": -34.6064,
+        "longitud": -58.3843
+      },
+      "numero": 123
+    },
+    "id": 2,
+    "nombre": "Caritas Argentina"
+  },
+  {
+    "direccion": {
+      "calle": "Calle Humberto Primo",
+      "coordenada": {
+        "latitud": -34.6064,
+        "longitud": -58.3843
+      },
+      "numero": 123
+    },
+    "id": 3,
+    "nombre": "Caritas Argentina"
+  },
+  {
+    "direccion": {
+      "calle": "Calle Humberto Primo",
+      "coordenada": {
+        "latitud": -34.6064,
+        "longitud": -58.3843
+      },
+      "numero": 123
+    },
+    "id": 4,
+    "nombre": "Caritas Argentina"
+  },
+  {
+    "direccion": {
+      "calle": "Calle Humberto Primo",
+      "coordenada": {
+        "latitud": -34.6064,
+        "longitud": -58.3843
+      },
+      "numero": 123
+    },
+    "id": 5,
+    "nombre": "Caritas Argentina"
+  }
+]

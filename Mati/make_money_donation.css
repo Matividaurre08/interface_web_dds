@@ -1,0 +1,82 @@
+.main-content-div {
+    width: 70%;
+    text-align: justify;
+}
+
+.contribution-div {
+    color: white;
+    background-color: #5F44F6;
+    border-radius: 40px;
+    margin: 20px 0;
+    display: flex;
+    padding: 5px;
+}
+
+.contribution-icon {
+    width: 89px;
+    height: 50px;
+    border-right: white 3px solid;
+}
+
+.contribution-div span {
+    margin: auto 20px;
+    text-align: left;
+}
+
+form {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+
+.grid-item {
+    min-width: 100%;
+}
+
+.grid-item .grid-label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.grid-item input,
+.grid-item select {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #D9D9D9;
+    box-sizing: border-box;
+}
+
+.payment-method {
+    grid-column: 1 / -1;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
+}
+
+.payment-method label {
+    display: block;
+}
+
+.payment-method input {
+    background-color: #D1C7C7;
+}
+
+#button {
+    background-color: #5F44F6;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+}

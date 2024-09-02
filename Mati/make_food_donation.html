@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common-styles.css">
+    <link rel="stylesheet" href="./make_food_donation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1>DonAR</h1>
+            <h2>Donaciones para Personas Vulnerables</h2>
+        </div>
+        <div class="header-right">
+            <button class="login-btn"><i class="fa fa-user" aria-hidden="true"></i> Iniciar Sesión</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <div class="main-content-div">
+                <div>
+                    <div class="contribution-div">
+                        <img src="../images/food.svg" alt="" class="contribution-icon">
+                        <span> Donacion de viandas </span>
+                    </div>
+                </div>
+
+                <div class="main-content-text">
+                    A continuación, podrá ingresar los datos correspondientes a las viandas que desea donar.
+                </div>
+
+                <form action="">
+
+                    <div class="grid-item">
+                        <label for="fecha-caducidad" class="grid-label">Fecha de caducidad (*)</label>
+                        <input type="date" name="fecha-caducidad">
+                    </div>
+
+                    <div class="grid-item">
+                        <label for="fecha-donacion" class="grid-label">Fecha en la que se efectuará la
+                            donacion(*)</label>
+                        <input type="date" name="fecha-donacion">
+                    </div>
+
+                    <div class="grid-item">
+                        <label for="calorias" class="grid-label">Calorias</label>
+                        <div class="input-container">
+                            <input type="text" name="calorias">
+                            <span class="input-unit">Kg</span>
+                        </div>
+                    </div>
+
+                    <div class=" grid-item">
+                        <label for="peso" class="grid-label">Peso</label>
+                        <div class="input-container">
+                            <input type="text" name="peso">
+                            <span class="input-unit">Cal</span>
+                        </div>
+                    </div>
+
+                    <div class=" grid-item">
+                        <label for="descripcion-comida" class="grid-label">Descripción de la comida</label>
+                        <input type="text" name="descripcion-comida" placeholder="Milanesa con papas fritas">
+                    </div>
+
+                    <div class="grid-item" id="grid-option">
+                        <label for="tipo-comida" class="grid-label">A continuación, indique el tipo de comida</label>
+                        <div class="grid-item-options">
+                            <div class="grid-item-option" id="option1">
+                                <img src="../images/croissant.svg" alt="desayuno o merienda" id="img-option1">
+                                <div class="grid-item-text">Desayuno o Merienda</div>
+                            </div>
+                            <div class="grid-item-option" id="option2">
+                                <img src="../images/lunch.svg" alt="almuerzo o cena" id="img-option2">
+                                <div class="grid-item-text">Almuerzo o Cena</div>
+                            </div>
+                        </div>
+                        <input type="hidden" id="selected-option" name="selected-option" value="">
+                    </div>
+                </form>
+            </div>
+
+            <button id="button" type="submit">Realizar donación</button>
+
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>¿Tenés dudas? Contactate con nosotros.</p>
+            <div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <span>contacto@donar.org</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone"></i>
+                    <span>+54 11 1234 5678</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+<script src="./make_food_donation.js"></script>
+
+</html>

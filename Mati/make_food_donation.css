@@ -1,0 +1,116 @@
+.main-content-div {
+    width: 70%;
+    text-align: justify;
+}
+
+.contribution-div {
+    color: white;
+    background-color: #5F44F6;
+    border-radius: 40px;
+    margin: 20px 0;
+    display: flex;
+    padding: 5px;
+}
+
+.contribution-icon {
+    width: 89px;
+    height: 50px;
+    border-right: white 3px solid;
+}
+
+.contribution-div span {
+    margin: auto 20px;
+    text-align: left;
+}
+
+form {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    min-width: 100%;
+}
+
+.grid-item .grid-label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.grid-item input,
+.grid-item select,
+.grid-item .input-container {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #D9D9D9;
+    box-sizing: border-box;
+}
+
+.grid-item .input-container {
+    height: fit-content;
+    padding: 0;
+    justify-items: center;
+}
+
+.input-container input {
+    width: 80%;
+    margin: 0px;
+    outline: none;
+}
+
+.input-container span {
+    float: inline-end;
+    margin: 10px 10px 0 0;
+}
+
+#grid-option {
+    grid-column: 1 / -1;
+}
+
+.grid-item-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    margin-bottom: 10px;
+}
+
+.grid-item-options .grid-item-option {
+    background-color: #bea8a8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: 550;
+    color: #ffffff;
+}
+
+#img-option1 {
+    width: 130px;
+    fill: #534C4C;
+}
+
+#img-option2 {
+    width: 130px;
+    fill: #534C4C;
+}
+
+#button {
+    background-color: #5F44F6;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+}

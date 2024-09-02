@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common-styles.css">
+    <link rel="stylesheet" href="./make_money_donation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1>DonAR</h1>
+            <h2>Donaciones para Personas Vulnerables</h2>
+        </div>
+        <div class="header-right">
+            <button class="login-btn"><i class="fa fa-user" aria-hidden="true"></i> Iniciar Sesión</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <div class="main-content-div">
+                <div>
+                    <div class="contribution-div">
+                        <img src="../images/money.svg" alt="" class="contribution-icon">
+                        <span> Donacion de dinero </span>
+                    </div>
+                </div>
+
+                <div class="main-content-text">
+                    A continuación, indique el monto y los datos referidos al medio de pago.
+                    <br>
+                    Las donaciones podrán ser unicas, o bien configurarse para ser realizadas en forma periódica.
+                </div>
+
+                <form action="">
+
+                    <div class="grid-item">
+                        <label for="fecha" class="grid-label">Fecha en la que se efectuará la donacion (*)</label>
+                        <input type="date" name="fecha">
+                    </div>
+
+                    <div class="grid-item">
+                        <label for="monto" class="grid-label">Monto de la donacion (*)</label>
+                        <input type="number" name="monto">
+                    </div>
+
+                    <div class="grid-item">
+                        <label for="frecuencia" class="grid-label">Frecuencia de donacion</label>
+                        <select name="frecuencia">
+                            <option value="null">Por unica vez</option>
+                            <option value="0">Cada 1 mes</option>
+                            <option value="1">Cada 2 meses</option>
+                            <option value="2">Cada 6 meses</option>
+                        </select>
+                    </div>
+
+                    <div class="payment-method">
+                        <div class="grid-item">
+                            <label for="numero">Numero tarjeta</label>
+                            <input type="text" name="numero" id="numero-tarjeta" inputmode="numeric">
+                        </div>
+                        <div class="grid-item">
+                            <label for="nombre">Nombre titular</label>
+                            <input type="text" name="nombre">
+                        </div>
+                        <div class="grid-item">
+                            <label for="vencimiento">Fecha vencimiento</label>
+                            <input type="text" name="vencimiento" id="expiry-date" placeholder="MM/AA" maxlength="5">
+                        </div>
+                        <div class="grid-item">
+                            <label for="codigo">Codigo de seguridad (CVV)</label>
+                            <input type="number" name="codigo">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <button id="button" type="submit">Realizar donación</button>
+
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>¿Tenés dudas? Contactate con nosotros.</p>
+            <div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <span>contacto@donar.org</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone"></i>
+                    <span>+54 11 1234 5678</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+<script src="./make_money_donation.js"></script>
+
+</html>

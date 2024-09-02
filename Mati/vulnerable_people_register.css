@@ -1,11 +1,6 @@
 .main-content {
-    background-color: #D1C7C7;
-    border-radius: 40px;
-    width: 70%;
-    margin: 20px 0 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    min-height: 100px;
+    overflow: hidden;
 }
 
 .main-content h3 {

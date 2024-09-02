@@ -26,9 +26,23 @@ document.addEventListener('DOMContentLoaded', () => {
             fileListContainer.appendChild(listItem);
         }
     }
-});
 
-document.getElementById('button').addEventListener('click', function () {
-    console.log('CSV button clicked');
-    //TODO: Validar archivo y enviar datos
+    const button = document.getElementById('button');
+
+    // Cambia el color al hacer clic
+    button.addEventListener('mousedown', function () {
+        button.style.backgroundColor = '#4A33CC';
+    });
+
+    // Vuelve al color original al soltar el clic
+    button.addEventListener('mouseup', function () {
+        button.style.backgroundColor = '#5F44F6';
+    });
+
+    // Acción cuando se hace clic (opcional)
+    button.addEventListener('click', function () {
+        console.log('button clicked');
+        //TODO: Validar archivo y enviar datos
+    });
+
 });
