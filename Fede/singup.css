@@ -1,0 +1,270 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #5F44F6;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.header-left h2 {
+    font-size: 1rem;
+}
+
+.login-btn {
+    background-color: #fff;
+    color: #5F44F6;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.login-btn i {
+    margin-right: 5px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.main-content-div {
+    background-color: #f0e4e4;
+    border-radius: 20px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    flex: 1;
+    max-width: 48%;
+    aspect-ratio: 3 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.button.humana {
+    background-color: #e0e0e0;
+}
+
+.button.organizaciones {
+    background-color: #5F3DC4;
+    color: white;
+}
+
+.button .icon {
+    margin-bottom: 10px;
+}
+
+.button img {
+    width: 50%;
+}
+
+form {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-label {
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.grid-item-options {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.grid-item-option {
+    display: flex;
+    align-items: center;
+}
+
+button#button {
+    grid-column: 1 / -1;
+    background-color: #5F44F6;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #5F44F6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.contact-info i {
+    margin-right: 10px;
+} */
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   /* padding: 20px;*/
+    flex-wrap: wrap; 
+  }
+  
+  .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 150px; /*/ El botón se ajustará con un mínimo de 150px */
+    max-width: 300px; /*/Limitar el ancho máximo del botón */
+    aspect-ratio: 3 / 2; /* Relación de aspecto para mantener una proporción consistente*/
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .button.humana {
+    background-color: #e0e0e0; 
+  }
+  
+  .button.organizaciones {
+    background-color: #5f3dc4; 
+    color: white;
+  }
+  
+  .button .icon {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button img {
+    width: 100%; /*// El tamaño del ícono será proporcional al tamaño del botón */
+    max-width: 100px; /* Limitar el tamaño máximo del ícono */
+    height: auto;
+  }
+  
+  .button span {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  .button:hover {
+    opacity: 0.9;
+  }
+  .main-content-div-form {
+    width: 85%;
+    text-align: justify;
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.grid-label {
+    margin-bottom: 5px;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between the select and input as needed */
+}
+.contacto{
+    margin-top: 29px;
+}
+.hidden-button {
+    display: none;
+}
+.button-container-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between the images as needed */
+}
+  @media (max-width: 768px) {
+    .button {
+      flex: 1 1 120px; 
+      max-width: 200px;
+    }
+  
+    .button img {
+      width: 40%;
+    }
+  }
+  
