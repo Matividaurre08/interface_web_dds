@@ -199,11 +199,11 @@ h2 {
     transition: background-color 0.3s ease;
   }
   
-  .button.humana {
+  .button.default {
     background-color: #e0e0e0; 
   }
   
-  .button.organizaciones {
+  .button.seleccionado {
     background-color: #5f3dc4; 
     color: white;
   }
@@ -215,7 +215,7 @@ h2 {
   }
   
   .button img {
-    width: 100%; /*// El tamaño del ícono será proporcional al tamaño del botón */
+    width: 90%; /*// El tamaño del ícono será proporcional al tamaño del botón */
     max-width: 100px; /* Limitar el tamaño máximo del ícono */
     height: auto;
   }

@@ -25,36 +25,29 @@
         <div class="main-content">
             <div class="main-content-div-form">
                 <h2 >¿Qué tipo de persona sos?</h2>
-                <div class="button-container">
-                    <div class="button default">
-                        <img src="../images/bxs-user.svg" alt="Humana Icon" >
+                <div class="button-container seleccionado">
+                    <div class="button seleccionado">
+                        <img src="../images/bxs-user-white.svg" alt="Humana Icon" >
                         <span>Humana</span>
                         <button class="hidden-button" id="humana-button" onclick="">Humana</button>
-                    </div>
+                      </div>
                       
-                    <div class="button seleccionado">
-                        <img src="../images/bxs-business-white.svg" alt="Organizaciones Icon">
+                      <div class="button default">
+                          <img src="../images/bxs-business.svg" alt="Organizaciones Icon">
                         <span>Organizaciones</span>
                         <button class="hidden-button" id="organizaciones-button" onclick="">Organizaciones</button>
-                    </div>
+                      </div>
                 </div>
 
                 <form action="">
                     <div class="grid-item">
-                        <label class="grid-label">Razón Social (*)</label>
-                        <input type="text" placeholder="Arcos Dorados S.A.">
+                        <label class="grid-label">Nombre (*)</label>
+                        <input type="text">
                     </div>
-
                     <div class="grid-item">
-                        <label class="grid-label">Tipo (*)</label>
-                        <select>
-                            <option value="">Seleccionar tipo</option>
-                            <option value="gubernamental">Gubernamental</option>
-                            <option value="ong">ONG</option>
-                            <option value="empresa">Empresa</option>
-                            <option value="institucion">Institución</option>
-                        </select>
-                    </div> 
+                        <label class="grid-label">Apellido (*)</label>
+                        <input type="text">
+                    </div>
                     <div class="grid-item">
                         <label class="grid-label">Medio de contacto (*)</label>
                             <div class="input-group">
@@ -75,27 +68,47 @@
                     <div class="grid-item">
                         <input class="contacto"type="text" placeholder="Valor">
                     </div>
+                    <div class="grid-item">
+                        <label class="grid-label">Fecha de nacimiento</label>
+                        <input type="text" placeholder="dd/mm/aaaa">
+                    </div>
+                    <div class="grid-item">
+                        <label class="grid-label">Dirección</label>
+                        <input type="text" placeholder="suipacha 247">
+                    </div>
                     <div class="grid-item full-width">
                         <label class="grid-label full-width-label">A continuación, indica de que forma podrías colaborar (*)</label>
                     <div class="checkbox-container">
                         <div class="checkbox">
-                                <label> 
-                                    <input type="checkbox" id="cbox1" value="donar_dinero" /> 
-                                    Donar dinero
-                                </label>      
-                            </div>
-                            <div class="checkbox">
-                                <label> 
-                                    <input type="checkbox" id="cbox2" value="cargo_heladera" /> 
-                                    Hacerse cargo de una heladera
-                                </label>
-                            </div>
-                            <div class="checkbox">
-                                <label> 
-                                    <input type="checkbox" id="cbox3" value="ofrecer_productos_servicios" /> 
-                                    Ofrecer productos o servicios
-                                </label>
-                            </div>
+                            <label> 
+                           <input type="checkbox" id="cbox1" value="repartir_tarjetas" /> 
+                           Repartir tarjetas a personas vulnerables
+                           </label>      
+                       </div>
+                        <div class="checkbox">
+                            <label> 
+                            <input type="checkbox" id="cbox2" value="donar_dinero" /> 
+                            Donar dinero
+                            </label>      
+                        </div>
+                        <div class="checkbox">
+                            <label> 
+                            <input type="checkbox" id="cbox3" value="registar_personas" /> 
+                            Registrar personas vulnerables
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label> 
+                            <input type="checkbox" id="cbox4" value="donar_viandas" /> 
+                            Donar viandas
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label> 
+                            <input type="checkbox" id="cbox5" value="distribuir_viandas" /> 
+                            Distribuir viandas
+                            </label>
+                        </div>
                         </div>
                     </div>
                 </form>
