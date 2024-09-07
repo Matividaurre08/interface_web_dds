@@ -267,4 +267,41 @@ h2 {
       width: 40%;
     }
   }
-  
+/* To make the label span the entire width */
+.full-width {
+    grid-column: 1 / -1; /* Makes the element span across the grid */
+}
+
+/* Ensuring the label takes full width */
+.full-width-label {
+    width: 100%;
+    align-items: center;
+}
+/* Contenedor principal para alinear los checkboxes verticalmente */
+.checkbox-container {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna */
+    gap: 0.5rem; /* Espacio entre cada checkbox */
+}
+
+.checkbox {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el checkbox y el texto */
+    gap: 0.5rem; /* Espacio entre el checkbox y el texto */
+}
+.checkbox label {
+    display: flex;
+    align-items: center; /* Alinea el checkbox y el texto en una línea */
+    gap: 0.5rem; /* Espacio entre el checkbox y el texto */
+    width: 100%; /* Asegura que todos los labels tengan el mismo tamaño */
+    font-size: 1rem; /* Tamaño de fuente uniforme para todos los textos */
+}
+
+.checkbox label input[type="checkbox"] {
+    flex-shrink: 0; /* Evita que el checkbox se reduzca */
+    width: 1.2rem; /* Tamaño fijo del checkbox */
+}
+
+.checkbox label span {
+    flex-grow: 1; /* Permite que el texto ocupe el espacio restante */
+}
