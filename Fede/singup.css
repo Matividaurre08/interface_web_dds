@@ -190,8 +190,8 @@ h2 {
     align-items: center;
     justify-content: center;
     flex: 1 1 150px; /*/ El botón se ajustará con un mínimo de 150px */
-    max-width: 300px; /*/Limitar el ancho máximo del botón */
-    aspect-ratio: 3 / 2; /* Relación de aspecto para mantener una proporción consistente*/
+    max-width: 100%; /*/Limitar el ancho máximo del botón */
+    aspect-ratio: 4 / 2; /* Relación de aspecto para mantener una proporción consistente*/
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
