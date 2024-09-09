@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/common/common-styles.css">
+    <link rel="stylesheet" href="../styles/make_food_distribution.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1>DonAR</h1>
+            <h2>Donaciones para Personas Vulnerables</h2>
+        </div>
+        <div class="header-right">
+            <button class="login-btn"><i class="fa fa-user" aria-hidden="true"></i> Iniciar Sesión</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <div class="main-content-div">
+                <div>
+                    <div class="contribution-div">
+                        <img src="../assets/icons/bxs-truck.svg" alt="" class="contribution-icon">
+                        <span> Distribucion de Viandas </span>
+                    </div>
+                </div>
+
+                <div class="main-content-text">
+                    A continuación, podrá ingresar los datos correspondientes a las viandas que desea distribuir.
+                </div>
+
+                <form action="">
+
+                    <div class="grid-item">
+                        <label class = "grid-label">Heladera de Origen (*)</label>
+                        <select value = "default" name="HeladeraOrigen" id="origen">
+                            <option value="default">Seleccione Heladera</option>
+                            <option value="heladera1">Heladera Medrano</option>
+                            <option value="heladera2">Heladera Lugano</option>
+                            <option value="heladera3">Heladera Hospital</option>
+                        </select>
+                        <label class="grid-label">Cantidad de Viandas (*)</label>
+                        <input type="number" name="cant_viandas">
+                    </div>
+
+                    <div class="grid-item">
+                        <label class = "grid-label">Heladera de Destino (*)</label>
+                        <select value = "default" name="HeladeraOrigen" id="destino">
+                            <option value="default">Seleccione Heladera</option>
+                            <option value="heladera1">Heladera Medrano</option>
+                            <option value="heladera2">Heladera Lugano</option>
+                            <option value="heladera3">Heladera Hospital</option>
+                        </select>
+
+                        <label class = "grid-label">Motivo (*)</label>
+                        <select value = "default" name="HeladeraOrigen" id="destino">
+                            <option value="default">Seleccione un Motivo</option>
+                            <option value="heladera1">Desperfecto Heladera de Origen</option>
+                            <option value="heladera2">Falta de Viandas Heladera de Destino</option>
+                            <option value="heladera3">Otro</option>
+                        </select>
+                    </div>
+
+                </form>
+            </div>
+
+            <button id="button" type="submit">Realizar donación</button>
+
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>¿Tenés dudas? Contactate con nosotros.</p>
+            <div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <span>contacto@donar.org</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone"></i>
+                    <span>+54 11 1234 5678</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+<script src="../js/make_food_donation.js"></script>
+
+</html>

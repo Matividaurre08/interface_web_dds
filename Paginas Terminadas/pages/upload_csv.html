@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaginaPrincipal</title>
+    <link rel="stylesheet" href="../styles/common/common-styles.css">
+    <link rel="stylesheet" href="../styles/upload_csv.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1>DonAR</h1>
+            <h2>Donaciones para Personas Vulnerables</h2>
+        </div>
+        <div class="header-right">
+
+            <button class="login-btn"><i class="fa fa-user" aria-hidden="true"></i> Iniciar Sesión</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <div class="main-content-div">
+                <h3>Carga de colaboradores</h3>
+                <div class="main-content-text">
+                    Para cargar el/los archivos, arrastre y suelte el mismo dentro de este
+                    area o seleccione el mismo desde su computadora.
+                    <br>
+                    Asegúrese de que el archivo que desea cargar esté en formato CSV y contenga los datos de los
+                    colaboradores en el formato requerido.
+                </div>
+            </div>
+            <div class="upload-area" id="upload-area">
+                <input type="file" id="file-input" accept=".csv">
+                <div><img src="../assets/icons/plus-circle.svg" alt="csv-image" class="csv-image"></div>
+                <div>Solo se aceptan archivos de extension .CSV</div>
+            </div>
+            <div id="file-list">
+                <ul id="file-list-container"></ul>
+            </div>
+            <button id="button">Cargar archivo</button>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>¿Tenés dudas? Contactate con nosotros.</p>
+            <div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <span>contacto@donar.org</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone"></i>
+                    <span>+54 11 1234 5678</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+<script src="../js/upload_csv.js"></script>
+
+</html>
