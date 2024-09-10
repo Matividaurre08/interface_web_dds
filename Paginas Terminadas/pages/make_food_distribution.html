@@ -23,18 +23,18 @@
 
     <main>
         <div class="main-content">
-            <div class="main-content-div">
+            <div class="main-content-div"><br>
                 <div>
                     <div class="contribution-div">
                         <img src="../assets/icons/bxs-truck.svg" alt="" class="contribution-icon">
                         <span> Distribucion de Viandas </span>
                     </div>
                 </div>
-
+                <br>
                 <div class="main-content-text">
                     A continuación, podrá ingresar los datos correspondientes a las viandas que desea distribuir.
                 </div>
-
+                <br>
                 <form action="">
 
                     <div class="grid-item">
@@ -45,6 +45,7 @@
                             <option value="heladera2">Heladera Lugano</option>
                             <option value="heladera3">Heladera Hospital</option>
                         </select>
+                        <br><br>
                         <label class="grid-label">Cantidad de Viandas (*)</label>
                         <input type="number" name="cant_viandas">
                     </div>
@@ -57,18 +58,19 @@
                             <option value="heladera2">Heladera Lugano</option>
                             <option value="heladera3">Heladera Hospital</option>
                         </select>
-
+                        <br><br>
                         <label class = "grid-label">Motivo (*)</label>
                         <select value = "default" name="HeladeraOrigen" id="destino">
                             <option value="default">Seleccione un Motivo</option>
                             <option value="heladera1">Desperfecto Heladera de Origen</option>
                             <option value="heladera2">Falta de Viandas Heladera de Destino</option>
                             <option value="heladera3">Otro</option>
-                        </select>
+                        </select> 
                     </div>
 
                 </form>
             </div>
+            <br>
 
             <button id="button" type="submit">Realizar donación</button>
 

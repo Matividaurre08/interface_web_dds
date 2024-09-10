@@ -1,7 +1,10 @@
-.main-content-div {
+.main-content {
     width: 70%;
+    min-height: 70vh;
     text-align: justify;
+    display: flex;
 }
+
 
 .contribution-div {
     color: white;
