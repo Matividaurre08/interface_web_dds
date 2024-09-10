@@ -4,7 +4,7 @@ document.getElementById("donacion").addEventListener("click", function() {
 });
 
 document.getElementById("distribucion").addEventListener("click", function() {
-    window.location.href = "../pages/distribucionVianda.html"; 
+    window.location.href = "../pages/make_food_distribution.html"; 
 });
 
 document.getElementById("registro").addEventListener("click", function() {
