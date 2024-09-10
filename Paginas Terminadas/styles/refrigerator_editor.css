@@ -168,3 +168,23 @@ header {
 .manage-link:hover {
     text-decoration: underline;
 }
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-info-group {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info {
+    margin: 0;
+}
+
+.product-description {
+    flex: 1;
+}
+
