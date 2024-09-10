@@ -168,3 +168,23 @@ header {
 .manage-link:hover {
     text-decoration: underline;
 }
+.alert-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px; /* Espacio entre el botón y el scroll-container */
+}
+
+.alert-button {
+    padding: 10px 20px;
+    background-color: #5F44F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.alert-button:hover {
+    background-color: #8470f5;
+}

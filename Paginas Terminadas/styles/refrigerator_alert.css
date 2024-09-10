@@ -187,4 +187,11 @@ header {
 .product-description {
     flex: 1;
 }
+.section-title {
+    font-family: Arial, sans-serif; /* Coincide con el resto del contenido */
+    color: #333;
+    font-size: 24px; /* Ajuste el tamaño según tu preferencia */
+    text-align: center; /* Alineación horizontal */
+    margin-bottom: 20px; /* Espacio entre el título y la lista de alertas */
+}
 
