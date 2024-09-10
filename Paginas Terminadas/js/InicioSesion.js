@@ -8,7 +8,7 @@ document.getElementById("iniciarSesion").addEventListener("click", function() {
     const usuarios = {
         "Admin": "../pages/admin_role_page.html",
         "Humana": "../pages/human_role_page.html",
-        "Compania": "../pages/RolEmpresa.html"
+        "Juridica": "../pages/RolEmpresa.html"
     };
 
     // Redirigir a la página correspondiente si el usuario está en el mapa
