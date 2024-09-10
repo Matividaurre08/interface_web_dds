@@ -1,0 +1,89 @@
+/* Ajustes para el contenido principal */
+.main-content {
+    background-color: #D1C7C7;
+    border-radius: 40px;
+    width: 65%; /* Hacer el content un poco más ancho */
+    margin: 20px auto; /* Espacio leve entre header y footer */
+    padding: 30px;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1000px; /* Ancho máximo en pantallas grandes */
+}
+
+/* Ajustes de los títulos (Heladera y Dirección) */
+.main-content h3 {
+    text-align: left;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+/* Formulario */
+.form-container {
+    background-color: #D1C7C7;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.grid-item {
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 1000px;
+    align-items: center;
+}
+
+.grid-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.grid-item input {
+    width: 100%; /* Las cajas de texto ahora ocupan todo el ancho del content */
+    padding: 15px;
+    border-radius: 20px; /* Bordes redondeados */
+    border: 1px solid #ccc;
+    background-color: #D9D9D9;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Botones */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centrar los botones */
+    gap: 30px; /* Aumenta el espacio entre los botones */
+    width: 100%;
+    margin-top: 30px;
+}
+
+#dar-baja,
+#marcar-inactiva {
+    background-color: #5F44F6;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: none; /* Remueve cualquier borde adicional */
+    transition: background-color 0.3s ease;
+}
+
+#dar-baja:hover,
+#marcar-inactiva:hover {
+    background-color: #8470f5; /* Cambio de color al hacer hover */
+}

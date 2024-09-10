@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>>DonAR - Editar Heladera</title>
+    <link rel="stylesheet" href="../styles/common/common-styles.css">
+    <link rel="stylesheet" href="../styles/refrigerator_editor.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1>DonAR</h1>
+            <h2>Donaciones para Personas Vulnerables</h2>
+        </div>
+        <div class="header-right">
+
+            <button class="login-btn"><i class="fa fa-user" aria-hidden="true"></i> Iniciar Sesión</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <h3><strong>Heladera Nº52</strong></h3> 
+            <h3><strong>Dirección: Medrano 951</strong></h3>
+            <div class="form-container">
+                <form>
+                
+                    <div class="grid-item">
+                        <label for="capacidad" class="grid-label">Modificar capacidad máxima de viandas</label>
+                        <input type="text" id="capacidad" name="capacidad">
+                    </div>
+                    <div class="grid-item">
+                        <label for="direccion" class="grid-label">Cambiar dirección</label>
+                        <input type="text" id="direccion" name="direccion">
+                    </div>
+                </form>
+
+                <div class="button-container">
+                    <button id="dar-baja" type="button">Dar de baja</button>
+                    <button id="marcar-inactiva" type="button">Marcar como inactiva</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <footer>
+        <div>
+            <p>¿Tenés dudas? Contactate con nosotros.</p>
+            <div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <span>contacto@donar.org</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone"></i>
+                    <span>+54 11 1234 5678</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="../js/vulnerable_people_register.js"></script>
+
+</html>
